@@ -1,0 +1,9 @@
+body {
+    box-sizing: border-box;
+    min-height: 100vh;
+    min-width: 100vw;
+    padding: 20px;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(219, 250, 255);
+}
