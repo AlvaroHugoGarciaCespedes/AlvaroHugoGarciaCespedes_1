@@ -1,9 +1,63 @@
 body {
     box-sizing: border-box;
     min-height: 100vh;
-    min-width: 100vw;
-    padding: 20px;
+    min-width: 90vw;
+    padding: 0;
     margin: 0;
     font-family: sans-serif;
-    background-color: rgb(219, 250, 255);
+    background-color: rgb(255, 255, 255);
+}
+.header {
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 10px;
+    height: 200px;
+    border-bottom: 1px solid rgb(239, 255, 238);
+
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+
+}
+.description_author {
+  
+    text-align: left;
+    position: relative;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    height: 100px;
+    z-index: 1000;
+
+}
+.description_author :nth-child(1) {
+    width: 100%;
+    font-size: 16px;
+    padding: 0;
+
+
+}
+.description_author :nth-child(2) {
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+.nav {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+.main {
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(239, 255, 238);
 }
