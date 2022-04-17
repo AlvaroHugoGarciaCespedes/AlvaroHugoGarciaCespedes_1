@@ -96,7 +96,7 @@ body {
     margin: 5px;
 }
 .show {
-    height: 240px;
+    height: 236px;
     transition-property: all;
     transition-duration: 1s;;
 }
