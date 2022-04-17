@@ -96,7 +96,7 @@ body {
     margin: 5px;
 }
 .show {
-    height: 245px;
+    height: 240px;
     transition-property: all;
     transition-duration: 1s;;
 }
@@ -118,14 +118,14 @@ body {
     
     background-color: #00A582;
 }
-@media (min-width: 403px) and (orientation: landscape) { 
+@media (min-width: 403px) { 
     .show {
         height: 195px;
         transition-property: all;
         transition-duration: 1s;;
     }
 }
-@media (min-width: 563px) and (orientation: landscape) { 
+@media (min-width: 563px) { 
     .show {
         height: 170px;
         transition-property: all;
