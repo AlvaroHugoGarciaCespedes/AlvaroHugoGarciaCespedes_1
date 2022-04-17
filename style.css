@@ -1,7 +1,7 @@
 body {
     box-sizing: border-box;
     min-height: 100vh;
-    min-width: 90vw;
+    min-width: 360px;
     padding: 0;
     margin: 0;
     font-family: sans-serif;
@@ -96,7 +96,7 @@ body {
     margin: 5px;
 }
 .show {
-    height: 250px;
+    height: 225px;
     transition-property: all;
     transition-duration: 1s;;
 }
@@ -118,7 +118,14 @@ body {
     
     background-color: #00A582;
 }
-@media (min-width: 650px) { 
+@media (min-width: 403px) { 
+    .show {
+        height: 195px;
+        transition-property: all;
+        transition-duration: 1s;;
+    }
+}
+@media (min-width: 563px) { 
     .show {
         height: 170px;
         transition-property: all;
