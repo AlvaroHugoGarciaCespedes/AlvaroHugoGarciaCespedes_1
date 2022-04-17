@@ -132,7 +132,7 @@ body {
         transition-duration: 1s;;
     }
 }
-@media (min-width: 770px) { 
+@media (min-width: 770px)  and (orientation: landscape) { 
     .show {
         height: 150px;
         transition-property: all;
